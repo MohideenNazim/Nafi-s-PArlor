@@ -39,7 +39,7 @@ main{
 
     
 footer{
-        background-color: rgba(255, 255, 255, 0.315);
+        background-color: rgba(255, 81, 0, 0.267);
         padding-top: 14px;
         padding-bottom: 14px;
         text-align: center;
@@ -121,7 +121,7 @@ footer{
 
 
       .footer{
-          background-color: rgba(250, 179, 146, 0.479);
+          background-color: rgba(238, 157, 136, 0.671);
       }
 
       .links{
@@ -137,3 +137,25 @@ footer{
       .aboutus{
         
       }
+
+.dive{
+    padding: 30px;
+}
+
+h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn{
+    border: none;
+    background-color: rgba(255, 81, 0, 0.267);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    width: 120px;
+    margin-top: 15px;
+}
+
+.bod{
+    padding-bottom: 25px;
+}

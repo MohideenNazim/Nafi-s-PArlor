@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Sign Up</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     
@@ -21,47 +21,57 @@
         <a href="index.html">Home</a>
         <a href="#">Menu</a>
         <a href="#servi">Services</a>
-        <a href="login.html">Appointment</a>
+        <a href="#">Appointment</a>
         <a href="contact.html">Contact</a>
         <a href="#map">About Us</a>
 
     </nav>
 
     <main>
-<div class="nam"></div>
-  <div class="bod">
-        <div>
-            <h1>Sign Up</h1>
-            <form action="" method="get">
-             <div class="name">
-                <label>First Name</label>
-                <input type="text"/>
-                <label>Last Name</label>
-                <input type="text"/>
-            </div>
-             <div>
-                <p><label for="email">Email Address</label></p>
-                <input type="email" id="email" name="email" required autocomplete="off">
-             </div>
-             <div>
-                <p><label for="password">Password</label></p>
-                <input type="password" id="password" required >
-             </div>
-             <button type="button" onclick="myFunction()" id="btn" class ="button">Sign Up Now</button>
-             <p >Already a member? <a href="login.html" style="color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Log in</a></p>
-            </form>
-            <div></div>  
-    
-            <div> 
-               <div><i></i></div>
-               <div><i></i></div>
-               <div><i></i></i></div>
-            </div>
-        </dive>
- 
-    
-    </div>
 
+        <div class="container">
+            <form action="/action_page.php">
+              <div class="row">
+                <div class="vl">
+                  <span class="vl-innertext"></span>
+                </div>
+          
+                <div class="col">
+                  <a href="#" class="fb btn">
+                    <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                  </a>
+                  <a href="#" class="twitter btn">
+                    <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                  </a>
+                  <a href="#" class="google btn">
+                    <i class="fa fa-google fa-fw"></i> Login with Google+
+                  </a>
+                </div>
+          
+                <div class="col">
+                  <div class="hide-md-lg">
+                    <p>Or sign in manually:</p>
+                  </div>
+          
+                  <input type="text" name="username" placeholder="Username" required>
+                  <input type="password" name="password" placeholder="Password" required>
+                  <input type="submit" value="Login">
+                </div>
+          
+              </div>
+            </form>
+          </div>
+          
+          <div class="bottom-container">
+            <div class="row">
+              <div class="col">
+                <a href="contact.html" style="color:white" class="btn">Sign up</a>
+              </div>
+              <div class="col">
+                <a href="#" style="color:white" class="btn">Forgot password?</a>
+              </div>
+            </div>
+          </div>
 <br>
 <div class="container">
     <div class="footer" id="foot">
